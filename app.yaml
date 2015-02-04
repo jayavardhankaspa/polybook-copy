@@ -10,8 +10,11 @@ threadsafe: yes
 handlers:
 - url: /stylesheet
   static_dir: stylesheet
+
 - url: /post-service
   static_dir: post-servie
+- url: /api
+  static_dir: api
 
 
 - url: /components
